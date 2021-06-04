@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="{% url 'blog'%}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Login</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <h1>Karakoram Mountain</h1>
+    <br>
+    <p>The Karakoram is a mountain range spanning the borders of China, India, and Pakistan, with the northwest extremity of the range extending to Afghanistan and Tajikistan; its highest 15 mountains are all based in Pakistan. It begins in the Wakhan Corridor
+        (Afghanistan) in the west, encompasses the majority of Gilgit-Baltistan (controlled by Pakistan), and extends into Ladakh (controlled by India) and Aksai Chin (controlled by China). It is the second highest mountain range in the world and part
+        of the complex of ranges including the Pamir Mountains, the Hindu Kush and the Himalayan Mountains.[1][2] The Karakoram has eighteen summits over 7,500 m (24,600 ft) height, with four of them exceeding 8,000 m (26,000 ft):[3] K2, the second highest
+        peak in the world at 8,611 m (28,251 ft), Gasherbrum I, Broad Peak and Gasherbrum II. The range is about 500 km (311 mi) in length and is the most heavily glaciated part of the world outside the polar regions. The Siachen Glacier at 76 kilometres
+        (47 mi) and the Biafo Glacier at 63 kilometres (39 mi) rank as the world's second and third longest glaciers outside the polar regions.[4] The Karakoram is bounded on the east by the Aksai Chin plateau, on the northeast by the edge of the Tibetan
+        Plateau and on the north by the river valleys of the Yarkand and Karakash rivers beyond which lie the Kunlun Mountains. At the northwest corner are the Pamir Mountains. The southern boundary of the Karakoram is formed, west to east, by the Gilgit,
+        Indus and Shyok rivers, which separate the range from the northwestern end of the Himalaya range proper. These rivers flow northwest before making an abrupt turn southwestward towards the plains of Pakistan. Roughly in the middle of the Karakoram
+        range is the Karakoram Pass, which was part of a historic trade route between Ladakh and Yarkand that is now inactive. The Tashkurghan National Nature Reserve and the Pamir Wetlands National Nature Reserve in the Karalorun and Pamir mountains
+        have been nominated for inclusion in UNESCO in 2010 by the National Commission of the People's Republic of China for UNESCO and has tentatively been added to the list.[5]
+    </p>
+</body>
+
+</html>

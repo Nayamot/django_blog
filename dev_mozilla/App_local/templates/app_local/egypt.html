@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="{% url 'blog'%}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Login</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <h1>The Great Pyramid of Giza</h1>
+    <br>
+    <p>The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt. It is the oldest of the Seven Wonders
+        of the Ancient World, and the only one to remain largely intact. Egyptologists conclude that the pyramid was built as a tomb for the Fourth Dynasty Egyptian pharaoh Khufu and estimate that it was built in the 26th century BC during a period of
+        around 27 years.[3] Initially standing at 146.5 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for more than 3,800 years. Throughout history the majority of the smooth white limestone casing was removed, which
+        lowered the pyramid's height to the present 138.5 metres (454.4 ft). What is seen today is the underlying core structure. The base was measured to be about 230.3 metres (755.6 ft) square, giving a volume of roughly 2.6 million cubic metres (92
+        million cubic feet), which includes an internal hillock.[4] The dimensions of the pyramid, expressed in ancient Egyptian units of measurement, were 280 cubits high, a base length of 440 cubits, with a seked of 5+ 1 / 2 palms (a slope of 51°50'40").
+        The Great Pyramid was built by quarrying an estimated 2.3 million large blocks weighing 6 million tonnes total. The majority of stones are not uniform in size or shape and are only roughly dressed.[5] The outside layers were bound together by
+        mortar. Primarily local limestone from the Giza Plateau was used. Other blocks were imported by boat down the Nile: White limestone from Tura for the casing, and granite blocks from Aswan, weighing up to 80 tonnes, for the King's Chamber structure.[6]
+        There are three known chambers inside the Great Pyramid. The lowest was cut into the bedrock, upon which the pyramid was built, but remained unfinished. The so-called[7] Queen's Chamber and King's Chamber, that contains a granite sarcophagus,
+        are higher up, within the pyramid structure. Khufu's vizier, Hemiunu (also called Hemon), is believed by some to be the architect of the Great Pyramid.[8] Many varying scientific and alternative hypotheses attempt to explain the exact construction
+        techniques. The funerary complex around the pyramid consisted of two mortuary temples connected by a causeway (one close to the pyramid and one near the Nile), tombs for the immediate family and court of Khufu, including three smaller pyramids
+        for Khufu's wives, an even smaller "satellite pyramid" and five buried solar barges.
+    </p>
+</body>
+
+</html>

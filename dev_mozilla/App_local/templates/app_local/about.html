@@ -1,0 +1,120 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="{% url 'blog'%}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'contact' %}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Login</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <img src="{% static '/images/p.jpg' %}" width="1349px" height="400">
+
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-body">
+                    <h5>What is Programming</h5>
+                    <p>In this blog post, we will decipher the term “programming” and understand its usage and many other related terms.</p>
+
+                    <h5>What is Programming Language?</h5>
+                    <p>As mentioned above, Computers understand instructions that are written in a specific syntactical form called a programming language. A programming language provides a way for a programmer to express a task so that it could be understood
+                        and executed by a computer. Refer our another blog-post "What is programming language?" to know more about programming languages. Some of the popular Programming languages are Python, C, C++, Java, etc.</p>
+
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card card-body">
+                    <h3>Understanding Programming in layman terms</h3>
+                    <p>“Instruct the computer”: this basically means that you provide the computer a set of instructions that are written in a language that the computer can understand. The instructions could be of various types. For example: Adding 2 numbers,
+                        Rounding off a number, etc. Just like we humans can understand a few languages (English, Spanish, Mandarin, French, etc.), so is the case with computers. Computers understand instructions that are written in a specific syntactical
+                        form called a programming language. “Perform various tasks”: the tasks could be simple ones like we discussed above (adding 2 numbers, rounding off a number) or complex ones which may involve a sequence of multiple instructions.
+                        For example: Calculating simple interest, given principal, rate and time. Calculating the average return on a stock over the last 5 years. The above 2 tasks require complex calculations. They cannot usually be expressed in simple
+                        instructions like adding 2 numbers, etc. Hence, in summary, Programming is a way to tell computers to do a specific task.
+                    </p>
+
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h3>Why should you bother about coding?</h3>
+                    <p>You must be wondering - why does one need a computer for adding or rounding off numbers? Or even for simple interest calculation? After all, even an 8th standard kid can easily do such things even over large numbers. What is programming
+                        used for? What benefits do computers offer? Well, computers offer so many benefits: Computers are fast: computers are amazingly fast. If you know how to properly utilize the power of Computer programming, you can do wonders with
+                        it. For a typical computer of today’s time, an addition of 2 numbers which could be as big as a billion each takes hardly a nanosecond. Read again - nanosecond! That means that in 1 second, a computer can perform about a billion
+                        additions. Can any human ever do that? Forget a billion additions a second, typical human can’t even do 10 additions per second. So, computers offer great speed. Computers are cheap: if you were a stock market analyst and you had
+                        to monitor the data of say 1000 stocks so that you can quickly trade them. Imagine the hassle that would create if you were to do it manually! It is just impractical. While you are performing your calculation on the stock’s performance,
+                        the price may change. The other alternative is to hire people so that you can monitor more stocks in parallel. That means your cost goes up significantly. Not to mention the trouble you will face if some of your employees commit
+                        a calculation error in the process. You may end up losing money! Contrast that with the case where you use a computer. Computers can process a huge amount of information quickly and reliably. 1000 stocks are nothing for computers
+                        in the 21st century. Computers can work 24x7: Computers can work 24x7 without getting exhausted. So, if you have a task that is big enough, you can without worries allocate it to a computer by programming it and sleep peacefully.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h3>Why should you learn Computer Programming?</h3>
+                    <p>Now, after knowing so many things about programming, the big question to be answered is - why should you learn Computer Programming? Let us understand why: Programming is fun: Using Programming, you can create your own games, your
+                        personal blog/profile page, a social networking site like Facebook, a search engine like Google or an e-commerce platform like Amazon! Won’t that be fun? Imagine creating your own game and putting it on Play Store and getting thousands
+                        and thousands of downloads! The backbone of a Technology Company: The backbones of today’s technology companies like Google, Facebook, Microsoft, Apple, Amazon, and many others, are giant computer programs written by a collaboration
+                        of thousands of skilled programmers. If you have the right business acumen, knowing programming can help you create the next big tech company. Pretty good salary: Computer Programmers are paid extremely well almost all across the
+                        world. Top programmers in Silicon Valley make millions of dollars every year. Quite a few companies offer to start salaries as high as $100,000 per year.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
